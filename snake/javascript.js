@@ -63,6 +63,7 @@ function game() {
     ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2)
 }
 
+/* Aqui eu usei a função keypush para adicionar as variaveis das setas do teclado do computador que estão sendo mostrados com os números 37, 38, 39, 40. */
 
 function keyPush(evt) {
     switch(evt.keyCode) {
