@@ -7,12 +7,12 @@ window.onload=function() {
 
 
 
-px = py = 10
-gs = tc = 20
-ax = ay = 15
+px = py = 15
+gs = tc = 10
+ax = ay = 20
 xv = yv = 0
 trail=[]
-tail = 5
+tail = 7
 
 
 
@@ -42,7 +42,7 @@ function game() {
         ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2)
         
         if(trail[i].x==px && trail[i].y==py) {
-            tail = 5
+            tail = 7
         }
     }
     
